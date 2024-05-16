@@ -1,138 +1,118 @@
-const logotext = "JOHN";
+import ezksin from './assets/images/github.png'
+
+const logotext = "DWIKI";
 const meta = {
-    title: "John Doe",
-    description: "I’m John Doe data scientist _ Full stack devloper,currently working in Berlin",
+    title: "Dwiki",
+    description: "I’m Dwiki, Software Engineer who still has lots to learn.",
 };
 
 const introdata = {
-    title: "I’m John Doe",
+    title: 'Hi, Dwiki\'s here',
     animated: {
         first: "I love coding",
-        second: "I code cool websites",
-        third: "I develop mobile apps",
+        second: "I love learning new things",
+        third: "I love coffeeee",
     },
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum",
+    description: "Software Engineer",
     your_img_url: "https://images.unsplash.com/photo-1514790193030-c89d266d5a9d",
 };
 
 const dataabout = {
-    title: "abit about my self",
-    aboutme: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent quis dolor id ligula semper elementum feugiat pretium nulla. Nunc non commodo dolor. Nunc mollis dignissim facilisis. Morbi ut magna ultricies.",
+    title: "a bit about my self",
+    aboutme: `I'm a Computer Science graduate with a specialization in database technology from Bina Nusantara University. 
+    Particularly drawn to frontend engineering, I am dedicated to crafting seamless user experiences and dynamic web applications.`,
 };
 const worktimeline = [{
-        jobtitle: "Designer of week",
-        where: "YAdfi",
-        date: "2020",
+        jobtitle: "Frontend Engineer Intern",
+        where: "UPLINK Creative Studio",
+        date: "2018",
     },
     {
-        jobtitle: "Designer of week",
-        where: "Jamalya",
-        date: "2019",
+        jobtitle: "Fullstack Engineer",
+        where: "PT Bank BTPN",
+        date: "2022",
     },
     {
-        jobtitle: "Designer of week",
-        where: "ALquds",
-        date: "2019",
+        jobtitle: "Frontend Engineer",
+        where: "PT Mega Finance",
+        date: "2024",
     },
 ];
 
 const skills = [{
-        name: "Python",
-        value: 90,
-    },
-    {
-        name: "Djano",
-        value: 85,
-    },
-    {
-        name: "Javascript",
+        name: "NoSQL",
         value: 80,
     },
     {
-        name: "React",
-        value: 60,
+        name: "SQL",
+        value: 75,
     },
     {
-        name: "Jquery",
+        name: "Javascript",
         value: 85,
+    },
+    {
+        name: "React",
+        value: 80,
+    },
+    {
+        name: "Typescript",
+        value: 80,
+    },
+    {
+        name: "Node.js/Express.js",
+        value: 80,
+    },
+    {
+        name: "iOS Development (SwiftUI)",
+        value: 50,
+    },
+    {
+        name: "Testing Library (Jest, Enzyme, RTL)",
+        value: 80,
     },
 ];
 
 const services = [{
-        title: "UI & UX Design",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
+        title: "Web Development",
+        description: "Developed and maintained web applications using react, and node.js",
     },
-    {
-        title: "Mobile Apps",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
-    },
-    {
-        title: "Wordpress Design",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
-    },
+
 ];
 
 const dataportfolio = [{
-        img: "https://picsum.photos/400/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
+        img: ezksin,
+        description: "Developed a fullstack e-comnmerce, with CMS web applications using MERN, integrating 3rd party payment gateway Midtrans to securely process payments, also implemented JWT for authorization ",
+        link: "https://github.com/dwikis17/final-thesis-web",
+        title: "EZSKIN Web"
     },
     {
-        img: "https://picsum.photos/400/800/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
+        img: ezksin,
+        description: `Developed an iOS App using swift and UIKit to showcase Valorant content, including agents,
+        images from an API. this project uses programmatic implementation of UICollectionView,
+        UITableView with custom cells, and followed the MVVM architectural pattern`,
+        link: "https://github.com/dwikis17/valorant-app-swift",
+        title: "iOS Valorant App Swift"
     },
     {
-        img: "https://picsum.photos/400/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
+        img: ezksin,
+        description: `Developed a fullstack E-commerce web application using Laravel`,
+        link: "https://github.com/daniellie31/gameSlotProject",
+        title: "GameSlot"
     },
     {
-        img: "https://picsum.photos/400/600/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
+        img: ezksin,
+        description: `Developed a MERN fullstack CMS Application for BTPN Employee, using antd library, Jest, enzyme, and RTL for testing`,
         link: "#",
+        title: "TalentX Web (BTPN)"
     },
     {
-        img: "https://picsum.photos/400/300/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
+        img: ezksin,
+        description: `Desgined and developed web aplication with react and typescript, integraitng sales data, and also CMS for clients.`,
         link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/700/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
+        title: "Sales Tracking"
     },
 
-    {
-        img: "https://picsum.photos/400/600/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/300/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/550/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/700/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
 ];
 
 const contactConfig = {
@@ -147,10 +127,10 @@ const contactConfig = {
 };
 
 const socialprofils = {
-    github: "https://github.com",
+    github: "https://github.com/dwikis17",
     facebook: "https://facebook.com",
-    linkedin: "https://linkedin.com",
-    twitter: "https://twitter.com",
+    linkedin: "https://www.linkedin.com/in/dwiki-dwiki-97610b223/",
+    twitter: "https://twitter.com/dwikii____",
 };
 export {
     meta,
